@@ -31,7 +31,7 @@ namespace csharp_boilerplate_template.Server
                 if (count == 100)
                 {
                     sleep = 2500;
-                    Debug.WriteLine("In count == 1000 condition!");
+                    Debug.WriteLine("Passed in condition of count == 100, now sleep = 2500");
                 }
 
                 await Delay(sleep);

@@ -1,0 +1,27 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-boilerplate-template.Client", "Client\csharp-boilerplate-template.Client.csproj", "{B3F2F863-CEE9-4690-BC97-083B72463812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-boilerplate-template.Server", "Server\csharp-boilerplate-template.Server.csproj", "{0A527899-E77C-4409-AF2C-F67420C3F1AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3F2F863-CEE9-4690-BC97-083B72463812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F2F863-CEE9-4690-BC97-083B72463812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F2F863-CEE9-4690-BC97-083B72463812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F2F863-CEE9-4690-BC97-083B72463812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A527899-E77C-4409-AF2C-F67420C3F1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A527899-E77C-4409-AF2C-F67420C3F1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A527899-E77C-4409-AF2C-F67420C3F1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A527899-E77C-4409-AF2C-F67420C3F1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

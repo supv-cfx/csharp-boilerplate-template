@@ -21,6 +21,7 @@ set "VERSION=%VERSION:"=%"
 rem Création du fichier fxmanifest.lua
 (
   echo fx_version 'cerulean'
+  echo game 'gta5'
   echo lua54 'yes'
   echo use_experimental_fxv2_oal 'yes'
   echo version %VERSION%

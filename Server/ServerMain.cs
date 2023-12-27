@@ -23,11 +23,12 @@ namespace csharp_boilerplate_template.Server
             int count = 0;
             int sleep = 0;
             Debug.WriteLine("Start Thread with loop");
-            while (count < 1200)
+
+            while (count < 105)
             {
                 count++;
                 Debug.WriteLine($"count: {count} && sleep: {sleep}");
-                if (count == 1000)
+                if (count == 100)
                 {
                     sleep = 2500;
                     Debug.WriteLine("In count == 1000 condition!");
@@ -35,7 +36,9 @@ namespace csharp_boilerplate_template.Server
 
                 await Delay(sleep);
             }
+
             Debug.WriteLine("End of this thread");
+            Tick -= OnTick;
         }
     }
 }
